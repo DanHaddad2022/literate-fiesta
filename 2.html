@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" type="text/css" href="um.css" />
+</head>
+<body>
+    <div>
+        <h1 id="titulo">Informações</h1>
+        <br>
+        <p id="subtitulo">coloque suas informações pessoais</p>
+        <br>
+    </div>
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+            <div class="campo">
+                <label for="sobrenome">sobrenome</label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+            <div class="campo">
+                <label for="idade">idade</label>
+                <input type="number" name="idade" id="idade" required>
+            </div>
+        </fieldset>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="email">email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="campo">
+                <label for="sorvete">você gosta de sorvete?</label>
+                <label>
+                    <input type="radio" name="isso" value="sim">sim
+                </label>
+                <label>
+                    <input type="radio" name="isso" value="não">não
+                </label>
+                <label>
+                    <input type="radio" name="isso" value="nuncacomi">nunca comi
+                </label>
+            </div>
+            <div class="campo">
+                <label for="estado"><strong>estado</strong></label>
+                <select id="estado">
+                    <option selected disabled value="">selecione</option>
+                    <option>AC</option>
+                    <option>AL</option>
+                    <option>AP</option>
+                    <option>AM</option>
+                    <option>BA</option>
+                    <option>CE</option>
+                    <option>DF</option>
+                    <option>ES</option>
+                    <option>GO</option>
+                    <option>MA</option>
+                    <option>MT</option>
+                    <option>MS</option>
+                    <option>MG</option>
+                    <option>PA</option>
+                    <option>PB</option>
+                    <option>PR</option>
+                    <option>PE</option>
+                    <option>PI</option>
+                    <option>RJ</option>
+                    <option>RN</option>
+                    <option>RS</option>
+                    <option>RO</option>
+                    <option>RR</option>
+                    <option>SC</option>
+                    <option>SP</option>
+                    <option>SE</option>
+                    <option>TO</option>
+                </select>
+            </div>
+        </fieldset>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="aulas"><strong>aulas que você gosta:</strong></label>
+                <br>
+                <input type="checkbox" name="1" value="1" >
+                <label for="1">Português</label>
+                <input type="checkbox" name="2" value="2" >
+                <label for="2">Matemática</label>
+                <input type="checkbox" name="3" value="3" >
+                <label for="3">FTI</label>
+                <input type="checkbox" name="4" value="4" >
+                <label for="4">Prog Web</label>
+                <input type="checkbox" name="5" value="5" >
+                <label for="5">Prog 1</label>
+                <input type="checkbox" name="6" value="6" >
+                <label for="6">História</label>
+                <input type="checkbox" name="7" value="7" >
+                <label for="7">Geografia</label>
+                <input type="checkbox" name="8" value="8" >
+                <label for="8">Filosofia</label>
+                <input type="checkbox" name="9" value="9" >
+                <label for="9">Sociologia</label>
+                <input type="checkbox" name="10" value="10" >
+                <label for="10">nenhuma</label>
+            </div>
+        </fieldset>
+        <div class="campo">
+            <br>
+            <label id="area">conte sobre sua experiência no IF:</label>
+            <textarea row="10" style="height:20px;" style="width:25em" id="terror" name="terror"></textarea>
+        </div>
+        <button class="botao" type="submit">concluído</button>
+    </form>
+</body>
+</html>

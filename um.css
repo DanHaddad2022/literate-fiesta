@@ -1,0 +1,32 @@
+*{
+    font-family: serif;
+    margin:3px;
+    padding:0;
+    background-color:antiquewhite;
+    color:#59429d;
+ }
+input, textarea, select{
+    background-color:white;
+}
+.grupo{
+    color:black;
+}
+#titulo{
+    margin-left: 37%;
+    font-size:60px;
+}
+#subtitulo{
+    margin-left: 34%;
+    font-size:30px;
+}
+#area{
+    font-size:medium;
+}
+.botao{
+    margin-left: 50%;
+    font-size:30px;
+    background-color:limegreen;
+}
+.campo{
+    background-color:lightgrey;
+}
